@@ -115,10 +115,9 @@ Each model was trained on disease-specific datasets and evaluated using standard
 - **Deployment**: Localhost / Cloud-compatible  
 
 ---
-
 ## 🧩 System Architecture
-
-1. **Data Aggregation (DTA)**  
+![System Architecture](https://raw.githubusercontent.com/abkb-dev/ForeCasting_Disease/main/images/system_architecture.jpeg)
+1. **Data Aggregation **  
    This component gathers datasets from various sources like Kaggle, UCI, and WHO for analysis.
 
 2. **Data Processing**  
