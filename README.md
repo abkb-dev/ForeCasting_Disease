@@ -1,6 +1,6 @@
 # 🧠 A Comprehensive Multiple Disease Forecasting Using Machine Learning Algorithms and Streamlit Interface
 
-## 🚀 Project Overview (Made Simple)
+## 🚀 Project Overview 
 
 In today's world, finding and treating diseases early can save lives and reduce health problems. This project is designed to make that process easier and smarter.
 
@@ -82,7 +82,7 @@ Each model was trained on disease-specific datasets and evaluated using standard
 
 ---
 
-## 🌐 Streamlit Interface Features (Made Simple)
+## 🌐 Streamlit Interface Features 
 
 - 🔍 **One Place for Disease Predictions**  
   Our platform checks for 9 different diseases all in one place. Just enter your health details and get instant results—no need to switch between multiple apps.
@@ -105,17 +105,6 @@ Each model was trained on disease-specific datasets and evaluated using standard
 
 ---
 
-## 🗃️ MongoDB for EHR System
-
-MongoDB is used to store and manage structured and unstructured medical records efficiently. It supports:
-
-- Real-time updates to patient profiles
-- Seamless integration with prediction engines
-- Scalable architecture for increasing user base
-- Secure data management and compliance
-
----
-
 
 ## 📦 Tech Stack
 
@@ -126,5 +115,33 @@ MongoDB is used to store and manage structured and unstructured medical records 
 - **Deployment**: Localhost / Cloud-compatible  
 
 ---
+
+## 🧩 System Architecture
+
+1. **Data Aggregation (DTA)**  
+   This component gathers datasets from various sources like Kaggle, UCI, and WHO for analysis.
+
+2. **Data Processing**  
+   The collected data undergoes preprocessing to clean and prepare it for analysis.
+
+3. **Data Splitting**  
+   The prepared data is divided into training and testing sets.
+
+4. **Machine Learning Model**  
+   Utilizes algorithms like SVM, decision trees, etc., to build predictive models based on input symptoms for disease prediction.
+
+5. **Telemedicine Service**  
+   Offers various services for remote medical consultation.
+
+6. **Community Engagement Platform**  
+   Connects patients to forums based on their diseases of interest.
+
+7. **Chatbot Components**
+   - **DietNutriBot**: Provides tailored dietary recommendations for specific diseases.  
+   - **FitGuideBot**: Generates personalized fitness plans for diseases.
+
+8. **Electronic Health Record (EHR) System Integration**  
+   Includes a system to manage patients' health records within the platform.
+
 
 
