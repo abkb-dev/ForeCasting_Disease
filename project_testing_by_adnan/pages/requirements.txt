@@ -1,0 +1,10 @@
+streamlit
+pymongo
+streamlit-authenticator
+streamlit-aggrid
+pandas
+st-pages
+openpyxl
+xlsxwriter
+watchdog
+Pillow
