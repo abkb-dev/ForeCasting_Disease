@@ -4,7 +4,7 @@ from pymongo.mongo_client import MongoClient
 from PIL import Image
 
 
-uri = "mongodb+srv://adnan:mujtaba104@cluster0.ti5gonr.mongodb.net/"
+uri = "mongodb+srv://<username>:<password>@<cluster-address>/<database>?retryWrites=true&w=majority"
 # Connect to MongoDB
 client = MongoClient(uri)
 
